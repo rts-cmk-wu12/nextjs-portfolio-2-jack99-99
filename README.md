@@ -1,52 +1,36 @@
-# Opgave: Portfolio i Next.js
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Getting Started
 
-I denne opgave skal du arbejde med Next.js og bygge en simpel portfolio for en fiktiv person. Du får udleveret:
+First, run the development server:
 
-- En Figma-fil med design til tre sider
-- To fiktive elevprofiler med billeder og tekstmateriale
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-Du skal vælge **én** af de to fiktive personer og bygge en portfolio-side baseret på det udleverede materiale.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
----
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-## Mål
-- Lære at opsætte og strukturere et Next.js-projekt
-- Arbejde med Next.js’ filbaserede routing
-- Implementere layout og komponenter ud fra et design i Figma
-- Bruge billeder og tekstindhold i komponenter
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
----
+## Learn More
 
-## Krav til projektet
+To learn more about Next.js, take a look at the following resources:
 
-Du skal implementere følgende sider:
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-### 1. Forside
-- Kort introduktion til den fiktive person
-- Navigation til de andre sider
-- Billede af personen
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-### 2. Om mig
-- Mere detaljeret beskrivelse af personen
+## Deploy on Vercel
 
-### 3. Kontakt
-- Simpel kontaktformular
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
----
-
-## Tekniske krav
-
-- Projektet skal være bygget med Next.js
-- Brug Next.js’ routing (sider i `/pages`)
-- Brug komponenter til layout og genbrugelige elementer
-- Styling må gerne være med CSS-moduler, Tailwind eller anden metode
-- Brug `Head`-komponenten til at sætte titel og metadata på hver side
-
----
-
-## Aflevering
-
-- Push til GitHub og husk pull request til main
-- *(Valgfrit)* Upload til Vercel og del link
-
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
