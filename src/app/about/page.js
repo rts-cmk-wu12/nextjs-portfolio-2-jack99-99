@@ -13,6 +13,7 @@ export default function AboutPage() {
     </main>
 
         <div className="text-xl my-4  mx-100" > About me </div>
+        
         <p>
         Jeg hedder Jonas og studerer webudvikling med fokus på front-end og digitalt design.
         Det, der driver mig, er glæden ved at skabe websites, der ikke bare ser godt ud,
